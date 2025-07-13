@@ -1,22 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Malla Curricular - Administración y Negocios Internacionales</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Administración y Negocios Internacionales</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+
+<header>
     <h1>Malla Curricular: Administración y Negocios Internacionales</h1>
     <p>Modalidad de Estudio: Presencial</p>
-  </header>
-  <section id="cursos">
-    <!-- Aquí se pueden agregar los ciclos y cursos dinámicamente con JavaScript -->
-  </section>
-  <footer>
+</header>
+
+<div id="cursos">
+    <!-- Ciclo 1 -->
+    <section class="ciclo" id="ciclo1">
+        <h2>Ciclo 1</h2>
+        <div class="curso" id="curso1" onclick="toggleCourse(1)">
+            <p>Fundamentos para el Cálculo (MA384) - 5 Créditos</p>
+        </div>
+        <div class="curso" id="curso2" onclick="toggleCourse(2)">
+            <p>Comprensión y Producción de Lenguaje I (HU625) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso3" onclick="toggleCourse(3)">
+            <p>Ética y Ciudadanía (HU548) - 2 Créditos</p>
+        </div>
+        <div class="curso" id="curso4" onclick="toggleCourse(4)">
+            <p>Introduction to International Business (AN172) - 3 Créditos</p>
+        </div>
+        <div class="curso" id="curso5" onclick="toggleCourse(5)">
+            <p>International Management (AN173) - 3 Créditos</p>
+        </div>
+    </section>
+
+    <!-- Ciclo 2 -->
+    <section class="ciclo" id="ciclo2">
+        <h2>Ciclo 2</h2>
+        <div class="curso" id="curso6" onclick="toggleCourse(6)">
+            <p>Cálculo (MA459) - 5 Créditos</p>
+        </div>
+        <div class="curso" id="curso7" onclick="toggleCourse(7)">
+            <p>Comprensión y Producción de Lenguaje II (HU626) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso8" onclick="toggleCourse(8)">
+            <p>Fundamentos de las Finanzas (AF103) - 3 Créditos</p>
+        </div>
+        <div class="curso" id="curso9" onclick="toggleCourse(9)">
+            <p>Macroeconomía (AF133) - 3 Créditos</p>
+        </div>
+        <div class="curso" id="curso10" onclick="toggleCourse(10)">
+            <p>Inteligencia Comercial Internacional (AN97) - 3 Créditos</p>
+        </div>
+    </section>
+
+    <!-- Ciclo 3 -->
+    <section class="ciclo" id="ciclo3">
+        <h2>Ciclo 3</h2>
+        <div class="curso" id="curso11" onclick="toggleCourse(11)">
+            <p>Fundamentos de la Investigación Académica (HU318) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso12" onclick="toggleCourse(12)">
+            <p>Estadística Descriptiva (MA460) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso13" onclick="toggleCourse(13)">
+            <p>Matemática Financiera (AF141) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso14" onclick="toggleCourse(14)">
+            <p>Introducción a la Contabilidad Financiera (CA142) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso15" onclick="toggleCourse(15)">
+            <p>Teoría Microeconómica (AF142) - 3 Créditos</p>
+        </div>
+        <div class="curso" id="curso16" onclick="toggleCourse(16)">
+            <p>International Business (AN175) - 3 Créditos</p>
+        </div>
+    </section>
+
+    <!-- Ciclo 4 -->
+    <section class="ciclo" id="ciclo4">
+        <h2>Ciclo 4</h2>
+        <div class="curso" id="curso17" onclick="toggleCourse(17)">
+            <p>Estadística Inferencial (MA461) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso18" onclick="toggleCourse(18)">
+            <p>Finanzas Corporativas (AF140) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso19" onclick="toggleCourse(19)">
+            <p>Introducción a la Contabilidad Gerencial (CA143) - 4 Créditos</p>
+        </div>
+        <div class="curso" id="curso20" onclick="toggleCourse(20)">
+            <p>Marketing (AM75) - 3 Créditos</p>
+        </div>
+        <div class="curso" id="curso21" onclick="toggleCourse(21)">
+            <p>Comercio Internacional (AN22) - 3 Créditos</p>
+        </div>
+        <div class="curso" id="curso22" onclick="toggleCourse(22)">
+            <p>International Economy (AN176) - 2 Créditos</p>
+        </div>
+    </section>
+
+    <!-- Continuar con el resto de ciclos de la misma forma... -->
+
+</div>
+
+<footer>
     <p>© 2025 Universidad XYZ</p>
-  </footer>
-  <script src="scripts.js"></script>
+</footer>
+
+<script src="scripts.js"></script>
 </body>
 </html>
