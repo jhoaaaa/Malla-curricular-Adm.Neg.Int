@@ -57,6 +57,7 @@ header p {
 
 .curso.aprobado {
     background-color: #d4af37; /* Color dorado para cursos aprobados */
+    text-decoration: line-through; /* Tachar el texto */
 }
 
 footer {
