@@ -1,0 +1,84 @@
+/* Establecer el fondo y el texto general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F4;  /* Fondo gris claro */
+  color: #333333;  /* Texto gris oscuro */
+}
+
+/* Encabezado */
+header {
+  background-color: #8B1A1A;  /* Rojo vino */
+  color: #FFFFFF;  /* Texto blanco */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilo del título principal */
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Estilo de los enlaces */
+a {
+  color: #D4AF37;  /* Dorado claro para los enlaces */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9B1B30;  /* Rojo oscuro cuando el enlace está activo */
+}
+
+/* Sección de cursos */
+#cursos {
+  padding: 20px;
+  background-color: #FFFFFF;  /* Fondo blanco para los cursos */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+}
+
+/* Detalles de los cursos */
+.curso {
+  background-color: #F9F9F9;  /* Fondo gris claro para los cursos */
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 5px solid #8B1A1A;  /* Barra izquierda en rojo vino */
+  border-radius: 5px;
+}
+
+/* Estilo de los títulos de los cursos */
+.curso h3 {
+  color: #9B1B30;  /* Título de curso en rojo oscuro */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Estilo del pie de página */
+footer {
+  background-color: #8B1A1A;  /* Rojo vino */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Mejorar los botones, si es necesario */
+button {
+  background-color: #D4AF37;  /* Dorado claro */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #9B1B30;  /* Rojo oscuro cuando pasa el mouse */
+}
