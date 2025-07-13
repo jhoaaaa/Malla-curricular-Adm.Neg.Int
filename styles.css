@@ -1,84 +1,70 @@
-/* Establecer el fondo y el texto general */
+/* Estilo general */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #F4F4F4;  /* Fondo gris claro */
-  color: #333333;  /* Texto gris oscuro */
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 /* Encabezado */
 header {
-  background-color: #8B1A1A;  /* Rojo vino */
-  color: #FFFFFF;  /* Texto blanco */
-  padding: 20px 0;
-  text-align: center;
+    background-color: #8B1A1A;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Estilo del título principal */
 header h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin: 0;
+    margin: 0;
+    font-size: 2em;
 }
 
-/* Estilo de los enlaces */
-a {
-  color: #D4AF37;  /* Dorado claro para los enlaces */
-  text-decoration: none;
+header p {
+    font-size: 1.2em;
 }
 
-a:hover {
-  color: #9B1B30;  /* Rojo oscuro cuando el enlace está activo */
-}
-
-/* Sección de cursos */
+/* Cursos */
 #cursos {
-  padding: 20px;
-  background-color: #FFFFFF;  /* Fondo blanco para los cursos */
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil */
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
 }
 
-/* Detalles de los cursos */
+.ciclo {
+    margin-bottom: 30px;
+}
+
+.ciclo h2 {
+    color: #8B1A1A;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
 .curso {
-  background-color: #F9F9F9;  /* Fondo gris claro para los cursos */
-  padding: 15px;
-  margin: 10px 0;
-  border-left: 5px solid #8B1A1A;  /* Barra izquierda en rojo vino */
-  border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #8B1A1A;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-/* Estilo de los títulos de los cursos */
-.curso h3 {
-  color: #9B1B30;  /* Título de curso en rojo oscuro */
-  font-size: 1.5em;
-  margin-bottom: 10px;
+.curso:hover {
+    background-color: #e0e0e0;
 }
 
-/* Estilo del pie de página */
+.curso.aprobado {
+    background-color: #d4af37; /* Color dorado para cursos aprobados */
+}
+
 footer {
-  background-color: #8B1A1A;  /* Rojo vino */
-  color: #FFFFFF;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-/* Mejorar los botones, si es necesario */
-button {
-  background-color: #D4AF37;  /* Dorado claro */
-  color: #FFFFFF;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #9B1B30;  /* Rojo oscuro cuando pasa el mouse */
+    background-color: #8B1A1A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
